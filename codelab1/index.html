@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Codelab 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <section class="hero">
+        <h1>Penjumlahan</h1>
+        <form onsubmit="calculateSum(event)">
+            <label for="first_num">Bilangan pertama</label><br>
+            <input type="text" id="first_number" name="first_num"><br>
+            <label for="second_num">Bilangan kedua</label><br>
+            <input type="text" id="second_number" name="second_num"><br>
+            <input type="submit" value="Jumlahkan">
+            <input type="button" value="Reset" onclick="resetForm()">
+        </form>
+        <p id="hasil">Hasil: </p>
+    </section>
+</body>
+</html>

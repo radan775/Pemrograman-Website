@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codelab 2</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section class="hero">
+        <h1>Form pendaftaran</h1>
+        <form onsubmit="submitForm(event)">
+            <label for="fname">Nama</label><br>
+            <input type="text" id="name" name="fname"><br>
+            <label for="femail">Email</label><br>
+            <input type="text" id="email" name="femail"><br>
+            <label for="falamat">Alamat lengkap</label><br>
+            <textarea id="alamat" name="falamat" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Daftar">
+        </form>
+    </section>
+</body>
+</html>
